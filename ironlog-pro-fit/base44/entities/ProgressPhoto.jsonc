@@ -1,0 +1,30 @@
+{
+  "name": "ProgressPhoto",
+  "type": "object",
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "photo_url": {
+      "type": "string"
+    },
+    "pose": {
+      "type": "string",
+      "enum": [
+        "front",
+        "side",
+        "back",
+        "other"
+      ],
+      "default": "front"
+    },
+    "note": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "date",
+    "photo_url"
+  ]
+}

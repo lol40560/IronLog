@@ -1,0 +1,129 @@
+{
+  "name": "Workout",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "routine_id": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "completed"
+      ],
+      "default": "active"
+    },
+    "duration_seconds": {
+      "type": "number",
+      "default": 0
+    },
+    "notes": {
+      "type": "string"
+    },
+    "total_volume": {
+      "type": "number",
+      "default": 0
+    },
+    "author_name": {
+      "type": "string"
+    },
+    "periodization_week": {
+      "type": "number"
+    },
+    "gym_profile_id": {
+      "type": "string"
+    },
+    "gym_profile_name": {
+      "type": "string"
+    },
+    "exercises": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "exercise_name": {
+            "type": "string"
+          },
+          "primary_muscle": {
+            "type": "string"
+          },
+          "group_type": {
+            "type": "string",
+            "enum": [
+              "normal",
+              "superset",
+              "circuit",
+              "interval"
+            ],
+            "default": "normal"
+          },
+          "group_label": {
+            "type": "string"
+          },
+          "rest_seconds": {
+            "type": "number",
+            "default": 120
+          },
+          "is_time_based": {
+            "type": "boolean",
+            "default": false
+          },
+          "load_note": {
+            "type": "string"
+          },
+          "bar_type": {
+            "type": "string",
+            "description": "Barbell apparatus for this instance (olympic|womens|trap|smith)"
+          },
+          "notes": {
+            "type": "string"
+          },
+          "sets": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": [
+                    "normal",
+                    "warmup",
+                    "drop",
+                    "failure"
+                  ],
+                  "default": "normal"
+                },
+                "weight": {
+                  "type": "number"
+                },
+                "reps": {
+                  "type": "number"
+                },
+                "duration_seconds": {
+                  "type": "number"
+                },
+                "rpe": {
+                  "type": "number"
+                },
+                "completed": {
+                  "type": "boolean",
+                  "default": false
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

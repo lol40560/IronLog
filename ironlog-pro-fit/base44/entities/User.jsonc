@@ -1,0 +1,26 @@
+{
+  "properties": {
+    "role": {
+      "type": "string",
+      "description": "The role of the user in the app",
+      "enum": [
+        "admin",
+        "user"
+      ]
+    },
+    "subscription_tier": {
+      "type": "string",
+      "description": "Pro access tier; 'pro' unlocks premium features",
+      "enum": [
+        "free",
+        "pro"
+      ],
+      "default": "free"
+    }
+  },
+  "required": [
+    "role"
+  ],
+  "name": "User",
+  "type": "object"
+}

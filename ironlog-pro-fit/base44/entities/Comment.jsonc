@@ -1,0 +1,30 @@
+{
+  "name": "Comment",
+  "type": "object",
+  "properties": {
+    "target_type": {
+      "type": "string",
+      "enum": [
+        "workout",
+        "routine"
+      ]
+    },
+    "target_id": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "string"
+    },
+    "author_name": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "target_type",
+    "target_id",
+    "text"
+  ]
+}

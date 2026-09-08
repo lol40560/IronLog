@@ -1,0 +1,125 @@
+{
+  "name": "Routine",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "folder": {
+      "type": "string",
+      "default": "My Routines"
+    },
+    "description": {
+      "type": "string"
+    },
+    "is_template": {
+      "type": "boolean",
+      "default": false
+    },
+    "category": {
+      "type": "string"
+    },
+    "share_token": {
+      "type": "string"
+    },
+    "is_shared": {
+      "type": "boolean",
+      "default": false
+    },
+    "exercises": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "exercise_name": {
+            "type": "string"
+          },
+          "group_type": {
+            "type": "string",
+            "enum": [
+              "normal",
+              "superset",
+              "circuit",
+              "interval"
+            ],
+            "default": "normal"
+          },
+          "group_label": {
+            "type": "string"
+          },
+          "rest_seconds": {
+            "type": "number",
+            "default": 120
+          },
+          "target_sets": {
+            "type": "number",
+            "default": 3
+          },
+          "target_reps": {
+            "type": "number",
+            "default": 8
+          },
+          "load_type": {
+            "type": "string",
+            "enum": [
+              "absolute",
+              "percent_1rm"
+            ],
+            "default": "absolute"
+          },
+          "weight_percent": {
+            "type": "number"
+          },
+          "target_weight": {
+            "type": "number"
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "periodization": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "boolean",
+          "default": false
+        },
+        "weeks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "normal",
+                  "deload"
+                ],
+                "default": "normal"
+              },
+              "weight_pct": {
+                "type": "number",
+                "default": 100
+              },
+              "reps_factor": {
+                "type": "number",
+                "default": 1
+              },
+              "rpe": {
+                "type": "number"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

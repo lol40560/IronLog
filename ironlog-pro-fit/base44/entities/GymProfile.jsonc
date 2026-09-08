@@ -1,0 +1,31 @@
+{
+  "name": "GymProfile",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "is_default": {
+      "type": "boolean",
+      "default": false
+    },
+    "pulley_ratio": {
+      "type": "number",
+      "default": 1,
+      "description": "Cable pulley ratio (e.g. 2 for 2:1, 1 for 1:1) to normalize machine loads"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "plate_inventory": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "Available plate pairs (kg) used by the custom plate calculator"
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

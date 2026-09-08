@@ -10,10 +10,159 @@
 		6C01F674304E7AAB00976CB5 /* IronLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6C01F7BD304E7DBB00976CB5 /* Exceptions for "ironlog-pro-fit" folder in "IronLog" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.gitignore,
+				.npmrc,
+				AGENTS.md,
+				base44/config.jsonc,
+				base44/entities/BodyMeasurement.jsonc,
+				base44/entities/Comment.jsonc,
+				base44/entities/Exercise.jsonc,
+				base44/entities/Follow.jsonc,
+				base44/entities/GymProfile.jsonc,
+				base44/entities/Like.jsonc,
+				base44/entities/ProgressPhoto.jsonc,
+				base44/entities/Routine.jsonc,
+				base44/entities/User.jsonc,
+				base44/entities/Workout.jsonc,
+				CLAUDE.md,
+				components.json,
+				eslint.config.js,
+				index.html,
+				jsconfig.json,
+				"package-lock.json",
+				package.json,
+				postcss.config.js,
+				public/manifest.json,
+				README.md,
+				src/api/base44Client.js,
+				src/App.jsx,
+				src/components/analytics/chartParts.jsx,
+				src/components/analytics/MuscleHeatmap.jsx,
+				src/components/analytics/StatCard.jsx,
+				src/components/AuthLayout.jsx,
+				src/components/community/FollowButton.jsx,
+				src/components/community/LeaderboardList.jsx,
+				src/components/community/StandardsView.jsx,
+				src/components/community/WorkoutPost.jsx,
+				src/components/exercise/SubMusclePicker.jsx,
+				src/components/GoogleIcon.jsx,
+				src/components/layout/AppShell.jsx,
+				src/components/pro/PaywallModal.jsx,
+				src/components/ProtectedRoute.jsx,
+				src/components/routine/PeriodizationEditor.jsx,
+				src/components/ScrollToTop.jsx,
+				src/components/ui/accordion.jsx,
+				"src/components/ui/alert-dialog.jsx",
+				src/components/ui/alert.jsx,
+				"src/components/ui/aspect-ratio.jsx",
+				src/components/ui/avatar.jsx,
+				src/components/ui/badge.jsx,
+				src/components/ui/breadcrumb.jsx,
+				src/components/ui/button.jsx,
+				src/components/ui/calendar.jsx,
+				src/components/ui/card.jsx,
+				src/components/ui/carousel.jsx,
+				src/components/ui/chart.jsx,
+				src/components/ui/checkbox.jsx,
+				src/components/ui/collapsible.jsx,
+				src/components/ui/command.jsx,
+				"src/components/ui/context-menu.jsx",
+				src/components/ui/dialog.jsx,
+				src/components/ui/drawer.jsx,
+				"src/components/ui/dropdown-menu.jsx",
+				src/components/ui/form.jsx,
+				"src/components/ui/hover-card.jsx",
+				src/components/ui/image.jsx,
+				"src/components/ui/input-otp.jsx",
+				src/components/ui/input.jsx,
+				src/components/ui/label.jsx,
+				src/components/ui/menubar.jsx,
+				"src/components/ui/navigation-menu.jsx",
+				src/components/ui/pagination.jsx,
+				src/components/ui/popover.jsx,
+				src/components/ui/progress.jsx,
+				"src/components/ui/radio-group.jsx",
+				src/components/ui/resizable.jsx,
+				"src/components/ui/scroll-area.jsx",
+				src/components/ui/select.jsx,
+				src/components/ui/separator.jsx,
+				src/components/ui/sheet.jsx,
+				src/components/ui/sidebar.jsx,
+				src/components/ui/skeleton.jsx,
+				src/components/ui/slider.jsx,
+				src/components/ui/sonner.jsx,
+				src/components/ui/switch.jsx,
+				src/components/ui/table.jsx,
+				src/components/ui/tabs.jsx,
+				src/components/ui/textarea.jsx,
+				src/components/ui/toast.jsx,
+				src/components/ui/toaster.jsx,
+				"src/components/ui/toggle-group.jsx",
+				src/components/ui/toggle.jsx,
+				src/components/ui/tooltip.jsx,
+				"src/components/ui/use-toast.jsx",
+				src/components/UserNotRegisteredError.jsx,
+				src/components/workout/ExerciseCard.jsx,
+				src/components/workout/ExercisePicker.jsx,
+				src/components/workout/GymSwitcher.jsx,
+				src/components/workout/PlateCalculator.jsx,
+				src/components/workout/RestTimer.jsx,
+				src/components/workout/SetRow.jsx,
+				src/components/workout/Stopwatch.jsx,
+				src/components/workout/ToolsSheet.jsx,
+				src/components/workout/WarmupCalculator.jsx,
+				"src/hooks/use-mobile.jsx",
+				"src/hooks/use-size.jsx",
+				src/index.css,
+				"src/lib/app-params.js",
+				src/lib/AuthContext.jsx,
+				src/lib/authReturnTo.js,
+				src/lib/checkout.js,
+				src/lib/fitness.js,
+				src/lib/muscleMap.js,
+				src/lib/PageNotFound.jsx,
+				"src/lib/query-client.js",
+				src/lib/social.js,
+				src/lib/usePro.js,
+				src/lib/utils.js,
+				src/main.jsx,
+				src/pages/ActiveWorkout.jsx,
+				src/pages/Analytics.jsx,
+				src/pages/Community.jsx,
+				src/pages/Exercises.jsx,
+				src/pages/ForgotPassword.jsx,
+				src/pages/Home.jsx,
+				src/pages/Login.jsx,
+				src/pages/OAuthConsent.jsx,
+				src/pages/Progress.jsx,
+				src/pages/Register.jsx,
+				src/pages/ResetPassword.jsx,
+				src/pages/RoutineEditor.jsx,
+				src/pages/Routines.jsx,
+				src/pages/Share.jsx,
+				tailwind.config.js,
+				vite.config.js,
+			);
+			target = 6C01F673304E7AAB00976CB5 /* IronLog */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6C01F676304E7AAB00976CB5 /* IronLog */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = IronLog;
+			sourceTree = "<group>";
+		};
+		6C01F7BC304E7DBA00976CB5 /* ironlog-pro-fit */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6C01F7BD304E7DBB00976CB5 /* Exceptions for "ironlog-pro-fit" folder in "IronLog" target */,
+			);
+			path = "ironlog-pro-fit";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +181,7 @@
 		6C01F66B304E7AAB00976CB5 = {
 			isa = PBXGroup;
 			children = (
+				6C01F7BC304E7DBA00976CB5 /* ironlog-pro-fit */,
 				6C01F676304E7AAB00976CB5 /* IronLog */,
 				6C01F675304E7AAB00976CB5 /* Products */,
 			);
@@ -62,6 +212,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				6C01F676304E7AAB00976CB5 /* IronLog */,
+				6C01F7BC304E7DBA00976CB5 /* ironlog-pro-fit */,
 			);
 			name = IronLog;
 			packageProductDependencies = (
@@ -244,12 +395,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IronLog/IronLog.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "IronLog reads your steps, activity, and optional heart and sleep data to show your daily health summary.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -270,13 +423,13 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 26.5;
 			};
 			name = Debug;
@@ -286,12 +439,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = IronLog/IronLog.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_APP_SANDBOX = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "IronLog reads your steps, activity, and optional heart and sleep data to show your daily health summary.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -312,13 +467,13 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 26.5;
 			};
 			name = Release;
